@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+      
+
+      
+      
+}
+.container{
+    max-width: 85%;
+    /* background-color: rgb(140, 242, 208); */
+    margin: 33px;
+    padding: 21px;
+    margin: auto;
+}
+.container h1 {
+    text-align: center;
+    color: rgb(13, 20, 3);
+    background: rgb(235, 232, 232);
+    font-size: 40px;
+    
+       
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(13, 20, 3);
+    background: rgb(240, 241, 236);
+}
+input,textarea{
+    width: 80%;
+    margin: 13px auto;
+    padding: 9px;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    display: block;
+}
+form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: white;
+    background: blue;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.Submitmsg{
+    color: rgb(20, 90, 243);
+    font-size: 25px;
+}
